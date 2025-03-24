@@ -1260,6 +1260,9 @@
   .align-top {
     vertical-align: top;
   }
+  .font-sans {
+    font-family: var(--font-sans);
+  }
   .leading-none {
     --tw-leading: 1;
     line-height: 1;
