@@ -686,6 +686,9 @@
   .auto-rows-min {
     grid-auto-rows: min-content;
   }
+  .grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
   .grid-cols-none {
     grid-template-columns: none;
   }
