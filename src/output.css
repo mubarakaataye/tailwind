@@ -1074,6 +1074,9 @@
   .border-gray-200 {
     border-color: var(--color-gray-200);
   }
+  .border-white {
+    border-color: var(--color-white);
+  }
   .border-white\/40 {
     border-color: color-mix(in oklab, var(--color-white) 40%, transparent);
   }
@@ -1459,6 +1462,9 @@
   }
   .\[color\:red\]\/50\! {
     color: color-mix(in oklab, red 50%, transparent) !important;
+  }
+  .text-blue-300 {
+    color: var(--color-blue-300);
   }
   .text-green-600 {
     color: var(--color-green-600);
