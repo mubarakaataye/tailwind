@@ -1173,6 +1173,9 @@
   .bg-gray-300 {
     background-color: var(--color-gray-300);
   }
+  .bg-indigo-600 {
+    background-color: var(--color-indigo-600);
+  }
   .bg-red-100 {
     background-color: var(--color-red-100);
   }
