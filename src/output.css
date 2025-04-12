@@ -23,6 +23,7 @@
     --color-gray-300: oklch(0.872 0.01 258.338);
     --color-white: #fff;
     --spacing: 0.25rem;
+    --container-md: 28rem;
     --text-sm: 0.875rem;
     --text-sm--line-height: calc(1.25 / 0.875);
     --text-lg: 1.125rem;
@@ -500,6 +501,9 @@
   }
   .w-screen {
     width: 100vw;
+  }
+  .max-w-md {
+    max-width: var(--container-md);
   }
   .max-w-none {
     max-width: none;
