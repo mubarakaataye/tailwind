@@ -44,6 +44,7 @@
             const timeTaken = (endTime - startTime) / 1000;
             const wpm =
             math.round((currentQuote.length /5) / (timeTaken /60));
+            resultEl.innerText = ' آفرین! سرعت تایپ شما ${wpm} کلمه در دقیقه';
         }
     })
     </script>
